@@ -14,7 +14,7 @@
 
 * ELB - Elastic Load Balancer
 
-* ASG - Autoscaling, with cpu-usage-scale-IN and cpu-usage-scale-OUT simples-policies
+* [Autos Scaling (ASG)](https://aws.amazon.com/autoscaling/) - with cpu-usage-scale-IN and cpu-usage-scale-OUT simples-policies
 
 * SNS - Simple Notification Services - sends email when a new machines was added by ASG (cpu-usage-scale-IN and cpu-usage-scale-OUT simples-policies)
 

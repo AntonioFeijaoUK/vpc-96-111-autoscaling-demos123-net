@@ -1,5 +1,3 @@
---- 
-
 ## Link
 
 * ELB Ireland's region - [http://vpc-96-111-autoscaling.demos123.net/](http://vpc-96-111-autoscaling.demos123.net/)

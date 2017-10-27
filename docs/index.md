@@ -4,21 +4,26 @@
 
 ## Using AWS Services
 
-* VPC - Virtual Private Computer
+* [Amazon Virtual Private Cloud (VPC)](https://aws.amazon.com/vpc/)
 
-* NGW - NAT Gateway
+* [NAT Gateways](https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpc-nat-gateway.html)
 
-* IGW - Internet Gateway
+* [Internet Gateways](https://http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Internet_Gateway.html)
 
-* EC2 - Amazon Linux
+* [Amazon Elastic Compute Cloud (Amazon EC2)](https://aws.amazon.com/ec2/)
 
-* ELB - Elastic Load Balancer
+* [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/)
 
-* [Autos Scaling (ASG)](https://aws.amazon.com/autoscaling/) - with cpu-usage-scale-IN and cpu-usage-scale-OUT simples-policies
+* [Autos Scaling (ASG)](https://aws.amazon.com/autoscaling/)
+> with cpu-usage-scale-IN and cpu-usage-scale-OUT simples-policies
 
-* SNS - Simple Notification Services - sends email when a new machines was added by ASG (cpu-usage-scale-IN and cpu-usage-scale-OUT simples-policies)
+* [Amazon Simple Notification Service (SNS)](https://aws.amazon.com/sns/)
+> sends email when a new machines was added by ASG (cpu-usage-scale-IN and cpu-usage-scale-OUT simples-policies)
 
-* CloudWatch - Added widget into Dashboard with CPU metric of the AutoScalling EC2's CPU utilisation
+* [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/)
+> Added widget into Dashboard with CPU metric of the AutoScalling EC2's CPU utilisation
+
+* [Amazon Route 53](https://aws.amazon.com/route53/)
 
 ---
 

@@ -1,4 +1,9 @@
-# VPC-96-111-autoscaling
+--- 
+
+## Link
+
+* ELB Ireland's region - [http://vpc-96-111-autoscaling.demos123.net/](http://vpc-96-111-autoscaling.demos123.net/)
+  - Note, is possible to use more than one ELB, and then routing to the multiple ELBs is done on *Route53*
 
 ---
 
@@ -24,13 +29,6 @@
 > Added widget into Dashboard with CPU metric of the AutoScalling EC2's CPU utilisation
 
 * [Amazon Route 53](https://aws.amazon.com/route53/)
-
----
-
-## Link
-
-* ELB Ireland's region - [http://vpc-96-111-autoscaling.demos123.net/](http://vpc-96-111-autoscaling.demos123.net/)
-  - Note, is possible to use more than one ELB, and then routing to the multiple ELBs is done on *Route53*
 
 ---
 

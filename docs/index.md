@@ -4,12 +4,16 @@
 
 ## Links for this demo
 
-* ELB Ireland's region - [http://vpc-96-111-autoscaling.demos123.net/](http://vpc-96-111-autoscaling.demos123.net/)
+* **Demos 1** - ELB Ireland's region - [http://vpc-96-111-autoscaling.demos123.net/](http://vpc-96-111-autoscaling.demos123.net/)
+
   - Note, is possible to use more than one ELB, and then routing to the multiple ELBs is done on *Route53*
 
-* [http://vpc-96-111-autoscaling.demos123.net/](http://vpc-96-111-autoscaling.demos123.net/) <-- default page
-* [http://vpc-96-111-autoscaling.demos123.net/stress-on.php](http://vpc-96-111-autoscaling.demos123.net/stress-on.php)  <-- "kills" the ec2 for 5 minutes, CPU 100% 
-* [http://vpc-96-111-autoscaling.demos123.net/stress-off.php](http://vpc-96-111-autoscaling.demos123.net/stress-off.php) <-- with lucky, might be able to load the page and stop the stress process
+* [http://vpc-96-111-autoscaling.demos123.net/](http://vpc-96-111-autoscaling.demos123.net/) <-- **default page**
+
+* [http://vpc-96-111-autoscaling.demos123.net/stress-on.php](http://vpc-96-111-autoscaling.demos123.net/stress-on.php)  <-- **starts** the stress linux process, CPU 100% in one core 1 
+
+* [http://vpc-96-111-autoscaling.demos123.net/stress-off.php](http://vpc-96-111-autoscaling.demos123.net/stress-off.php) <-- with lucky, might be able to load the page and **stop** the Linux-Stress process
+
 * [http://vpc-96-111-autoscaling.demos123.net/version.txt](http://vpc-96-111-autoscaling.demos123.net/version.txt) <-- logs, report txt file
 
 ---

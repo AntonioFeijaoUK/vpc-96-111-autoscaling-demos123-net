@@ -1,0 +1,9 @@
+#!/bin/bash
+yum -y update
+yum -y install wget
+
+cd /tmp
+wget https://raw.githubusercontent.com/feijaouk/vpc-96-111-autoscaling.demos123.net/files/userdata.sh
+chmod +x userdata.sh
+./userdata.sh
+reboot
